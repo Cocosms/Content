@@ -1,6 +1,6 @@
 import os
 import time
-from Content import Postgre_con
+import Postgre_con
 
 connection = Postgre_con.db_connection("user_info", "remote", "1Q@w3E$r", "127.0.0.1", "5432")
 cursor = connection.cursor()
